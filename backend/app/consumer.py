@@ -11,7 +11,7 @@ from faststream.rabbit.annotations import RabbitMessage
 from app.api.dependency.setup import setup_container
 from app.core.services.outbox_service import OutboxService
 from app.core.services.payment_service import PaymentService
-from backend.app.infrastructure.broker.rabbit_broker import PaymentBroker
+from app.infrastructure.broker.rabbit_broker import PaymentBroker
 
 
 logger = logging.getLogger(__name__)

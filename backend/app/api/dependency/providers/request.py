@@ -11,7 +11,7 @@ from app.core.services.outbox_service import OutboxService
 from app.core.services.payment_service import PaymentService
 from app.infrastructure.config.config import APP_CONFIG
 from app.infrastructure.database.adapters.pg_connection import DatabaseConnection
-from backend.app.infrastructure.broker.rabbit_broker import PaymentBroker
+from app.infrastructure.broker.rabbit_broker import PaymentBroker
 
 
 class RequestProvider(Provider):

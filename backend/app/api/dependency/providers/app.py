@@ -4,7 +4,7 @@ from aiohttp import ClientSession, ClientTimeout
 from dishka import Provider, Scope, provide
 
 from app.infrastructure.database.adapters.pg_connection import DatabaseConnection
-from backend.app.infrastructure.broker.rabbit_broker import PaymentBroker
+from app.infrastructure.broker.rabbit_broker import PaymentBroker
 
 
 class AppProvider(Provider):

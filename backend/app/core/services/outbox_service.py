@@ -1,5 +1,5 @@
 from app.core.repositories.outbox_repository import OutboxRepository
-from backend.app.infrastructure.broker.rabbit_broker import PaymentBroker
+from app.infrastructure.broker.rabbit_broker import PaymentBroker
 
 
 class OutboxService:
